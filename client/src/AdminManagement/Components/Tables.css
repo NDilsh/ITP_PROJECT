@@ -1,0 +1,54 @@
+/* Main table */
+table {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+  
+table td, table th {
+    border: 0px solid rgba(231, 231, 231, 0.973);
+    padding: 8px;
+    text-align: center;
+}
+  
+table tr:nth-child(even){
+      background-color: #ebebeb;
+}
+  
+table tr:hover {
+    background-color: #ddd;
+}
+  
+table thead {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: center;
+    background-color: #2c2c2c;
+    color: rgb(235, 235, 235);
+}
+
+/* Second table */
+.table1 {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.th1 {
+    padding: 10px;
+    text-align: left;
+}
+
+.th2 {
+    padding: 4px;
+    text-align: right;
+}
+
+.thead1 {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: center;
+    background-color: #3fd5af;
+    color: rgb(20, 20, 20);
+}
+

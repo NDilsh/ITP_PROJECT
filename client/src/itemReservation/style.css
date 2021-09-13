@@ -1,0 +1,62 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap");
+body,
+button {
+  font-family: "Inter", sans-serif;
+}
+
+:root {
+    --offcanvas-width: 280px;
+    /* --topNavbarHeight: 56px; */
+}
+
+.sidebar-nav {
+    width: var(--offcanvas-width);
+}
+
+@media (min-width: 992px) {
+    body {
+        overflow: auto !important;
+      }
+    .offcanvas-backdrop::before {
+        display:none;
+      }
+    .sidebar-nav {
+      transform:none;
+      visibility:hidden;
+      /* top: var(--topNavbarHeight); */
+      height: calc(100% - var(--topNavbarHeight));
+    }
+}
+
+.navbar{
+    background-color: rgb(238, 238, 238);
+}
+
+.offcanvas{
+    background-color: #3fd5af;
+}
+
+/* .navbar-brand{
+    color: #3fd5af;
+} */
+
+.navbar .navbar-brand:hover{
+    color: #3fd5af;
+}
+
+.text{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: large;
+    letter-spacing: 3px;
+    vertical-align: text-bottom;
+}
+
+.button1{
+  width:250px;
+  font-size: 13px;
+}
+
+.button1:hover, .button1:focus {
+    background: #1cbe93;
+  }

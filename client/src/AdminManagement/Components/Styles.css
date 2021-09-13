@@ -1,0 +1,24 @@
+.container1{
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.eye{
+    position: absolute;
+}
+
+#hide1{
+    display: none;
+}
+
+.container3{
+    background: rgba(226, 226, 226, 0.9);
+    position: relative;
+    padding: 40px;
+    max-width: 600px;
+    height: 500px;
+    margin: 40px auto;
+    border-radius: 4px;
+    box-shadow: 0 4px 10px 4px rgba(19, 35, 47, 0.3);
+  }
